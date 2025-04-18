@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> PDF</title>
+  <title>PDF</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,7 +11,7 @@
       background-color: #f0f0f0;
     }
 
-    .download-btn {
+    .download-btn, .open-btn {
       padding: 15px 30px;
       font-size: 18px;
       background-color: #4CAF50;
@@ -20,9 +20,10 @@
       border-radius: 10px;
       cursor: pointer;
       text-decoration: none;
+      margin: 10px;
     }
 
-    .download-btn:hover {
+    .download-btn:hover, .open-btn:hover {
       background-color: #45a049;
     }
   </style>
@@ -31,7 +32,8 @@
 <body>
 
   <h1></h1>
-  <a href="i.pdf" download class="download-btn">D...</a>
+  <a href="i.pdf" download class="download-btn">D</a>
+  <a href="i.pdf" target="_blank" class="open-btn">O</a>
 
 </body>
 </html>
